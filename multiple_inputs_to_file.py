@@ -6,7 +6,7 @@ def line():
     while True:
         text_input=input('What is/are your favorite song/s?')
 #add user input to text file
-
+        text_lines.append(text_input)
 #ask user if they want to add more or no
 
 #create text file
