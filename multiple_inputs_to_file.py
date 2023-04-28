@@ -16,3 +16,6 @@ def line():
         else:
             print ("Invalid input.")
 #create text file
+    with open("mylife.txt", "w") as lines_file:
+        lines_file.write("\n".join(text_lines))
+line()
