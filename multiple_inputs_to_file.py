@@ -1,3 +1,6 @@
+#Name: MALABO, RENIEL A.            #Section: BSCPE 1-5
+#Subject: Object Oriented Programming
+print ("This program is created to ask a user for a specific input and that input will be added to a text file.")
 #def function
 def line():   
 #create empty function
