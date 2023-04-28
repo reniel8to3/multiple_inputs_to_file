@@ -1,7 +1,7 @@
 #def function
 
 #create empty function
-
+text_lines=[]
 #ask user what to write
 
 #add user input to text file
