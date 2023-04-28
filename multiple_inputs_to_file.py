@@ -8,5 +8,11 @@ def line():
 #add user input to text file
         text_lines.append(text_input)
 #ask user if they want to add more or no
-
+        more_text=input('Do you want to list more of your favorite songs? Please type Y if YES and N if NO. ')
+        if more_text == ["Y"]:
+            continue
+        elif more_text == ["N"]:
+            print ("Thank you for listing your favorite songs!")
+        else:
+            print ("Invalid input.")
 #create text file
